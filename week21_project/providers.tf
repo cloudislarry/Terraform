@@ -1,3 +1,4 @@
+# Configure the AWS provider
 terraform {
   required_providers {
     aws = {
@@ -6,8 +7,6 @@ terraform {
     }
   }
 }
-
-#Specify AWS Region
 provider "aws" {
   region = "us-east-1"
 }
